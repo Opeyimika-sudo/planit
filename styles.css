@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;700&display=swap');
+
+.background {
+    background-color: #ecf0f3;
+}
+
+
+li {
+    list-style: none;
+}
+li::before {
+    content: "\2022";
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: blue;
+}
 /* * {
     margin: 0;
     padding: 0;
