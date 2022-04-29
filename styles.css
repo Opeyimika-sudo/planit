@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;700&display=swap');
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
 
 .background {
     background-color: #ecf0f3;
+    background-size: cover;
 }
 
 
@@ -13,24 +16,24 @@ li::before {
     font-size: 1.5rem;
     margin-right: 10px;
     color: blue;
-}
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    position: relative;
+    top: 3px;
 }
 
-:root {
-    --blue: #4a0bff;  #6E3CFF
-    black: #2a2a2a;
- --light: #d4ae90; #DAB99D 
-    --whiteBg: #ffffff;
-    --greyBg: #ecf0f3;
+
+@media screen and (min-width: 768px) {
+    .reasons {
+        height: 30rem;
+    }
 }
 
-.container {
-    width: 100vw;
-    height: 100vh;
-    background-color: var(--whiteBg);
+@media screen and (min-width: 992px) {
+    .push {
+        position: relative;
+        top: 25px;
+    }
 
-} */
+    .footer {
+        width: 40rem;
+    }
+}
